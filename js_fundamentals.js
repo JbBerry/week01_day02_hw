@@ -140,3 +140,5 @@ if (grid[0][0]&&grid[0][1]&&grid[0][2] === currentPlayer||// top row
     grid[0][2]&&grid[1][1]&&grid[2][0] === currentPlayer){// forward slash
   console.log(currentPlayer.toUpperCase() + " is the winner");
 }
+// need to reformat as (grid[0][0]== currentPlayer) && (grid[0][1] == currentPlayer) && (grid[0][2] == currentPlayer)
+// else is checking if the 3 locations are truthy and then the last of the 3 are == currentPlayer
